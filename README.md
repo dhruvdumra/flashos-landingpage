@@ -1,16 +1,67 @@
-# React + Vite
+# FlashOS Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The official website for FlashOS — a modern operating system downloader and USB flashing tool.
 
-Currently, two official plugins are available:
+FlashOS Website serves as the public-facing platform for the FlashOS ecosystem. It introduces users to the project, showcases its capabilities, provides a browsable operating system catalog, and offers downloads for the desktop application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Why I Built It
 
-## React Compiler
+Most operating system flashing tools focus only on the flashing process. Users still have to search for ISO files, compare distributions, and find trustworthy download sources themselves.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built FlashOS Website to act as a central hub where users can discover operating systems, learn about FlashOS, and download the application from a single place.
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Homepage
+
+![Homepage]
+
+### Operating System Catalog
+
+![OS Catalog]
+
+## What It Does
+
+* Showcases FlashOS features and capabilities
+* Provides a browsable operating system catalog
+* Allows filtering between Windows and Linux distributions
+* Explains the FlashOS flashing workflow
+* Provides download links for supported platforms
+* Serves as the official landing page for the FlashOS project
+
+## How It Works
+
+The website is built with React, Vite, and Framer Motion.
+
+Operating system information is stored in structured data files and rendered dynamically, making it easy to add or update supported distributions. Interactive animations and responsive layouts create a smooth experience across desktop, tablet, and mobile devices.
+
+## Features
+
+* Animated hero section
+* Bento-style feature grid
+* Interactive OS catalog
+* Responsive design
+* Dark themed UI matching FlashOS branding
+* Platform download cards
+* Accessibility and reduced-motion support
+
+## Development
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+```
+
+## Tech Stack
+
+* React 18
+* Vite
+* Framer Motion
+* CSS3
+* SVG Icons
+
+## License
+
+MIT License
